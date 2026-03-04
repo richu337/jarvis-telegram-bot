@@ -1,0 +1,26 @@
+{
+  "name": "jarvis-telegram-bot",
+  "version": "1.0.0",
+  "description": "AI-powered Telegram assistant bot with system control and memory",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "nodemon src/bot.js"
+  },
+  "keywords": ["telegram", "bot", "ai", "assistant", "jarvis"],
+  "author": "rayhan",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.67.0",
+    "@supabase/supabase-js": "^2.39.0",
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3",
+    "screenshot-desktop": "^1.15.0",
+    "say": "^0.16.0",
+    "child_process": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
